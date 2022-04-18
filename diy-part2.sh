@@ -17,6 +17,8 @@ sed -i 's/255.255.255./255.0.0./g' package/base-files/files/bin/config_generate
 
 echo "net.netfilter.nf_conntrack_max=65535" >> package/base-files/files/etc/sysctl.conf
 
+sed -i 's/bin\/ash/bin\/bash/g' package/base-files/files/etc/passwd
+
 echo "  _______                     ________        __
  |       |.-----.-----.-----.|  |  |  |.----.|  |_
  |   -   ||  _  |  -__|     ||  |  |  ||   _||   _|
