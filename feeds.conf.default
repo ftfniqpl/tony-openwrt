@@ -7,3 +7,4 @@ src-git luci https://github.com/coolsnowwolf/luci
 #src-git oldpackages http://git.openwrt.org/packages.git
 #src-link custom /usr/src/openwrt/custom-feed
 src-git ssr https://github.com/fw876/helloworld.git
+src-git addpack https://github.com/tobiaswaldvogel/openwrt-addpack.git
